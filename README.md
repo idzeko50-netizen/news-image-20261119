@@ -1,9 +1,20 @@
-# Sum up 19 November's world news in one image
+# news-image-20261119
 
-Entry for make.fun bounty `news-image-20261119` ($250, ends Sat 21 Nov 2026 00:00 UTC).
-`main.py` (Python 3.13, standard library only, no network) copies the
-image held in this repository to `/output/entry.png`. Running it twice
-writes the same bytes.
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/idzeko50-netizen/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/idzeko50-netizen/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
+Sum up 19 November's world news in one image — a 1024x1024 front-page collage for make.fun bounty `news-image-20261119` ($250, ends Sat 21 Nov 2026 00:00 UTC). `main.py` (Python 3.13, standard library only, no network) copies the image held in this repository to `/output/entry.png`. Running it twice writes the same bytes.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=ad0wkz82&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
 
 ## The image
 
@@ -32,12 +43,6 @@ THE WORLD IN ONE IMAGE", with four labelled panels:
 The image is an original AI-generated illustration with labels overlaid
 in code (DejaVu Sans). The summit panel shows generic leaders at a
 summit table, so its label names the countries, not individual likenesses.
-
-## Run it
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
 
 ## Licence
 
